@@ -77,7 +77,7 @@ An automated, serverless FinOps auditing solution built with **Python (`boto3`)*
 
 1. **Clone the repository and set up a virtual environment:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/goswamikashyap/aws-cost-optimizer.git
    cd aws-cost-optimizer
    python3 -m venv venv && source venv/bin/activate
    pip install -r requirements.txt
@@ -86,7 +86,7 @@ An automated, serverless FinOps auditing solution built with **Python (`boto3`)*
 2. **Configure AWS credentials and Slack Webhook:**
    ```bash
    aws configure
-   export SLACK_WEBHOOK_URL="https://slack.com"
+   export SLACK_WEBHOOK_URL="https://slack.com........your own url"
    ```
 
 3. **Run a live read-only scan or multi-resource simulation:**
@@ -116,10 +116,17 @@ An automated, serverless FinOps auditing solution built with **Python (`boto3`)*
 
 ## Live Proof of Execution
 
-### 1. AWS Lambda Scheduled Execution (`statusCode: 200`)
+1. AWS Lambda Scheduled Execution (`statusCode: 200`)
+
+<img width="1272" height="711" alt="1" src="https://github.com/user-attachments/assets/fd1cfae2-24fe-47d9-9ce9-7e0d57163e93" />
 
 
-### 2. Automated Slack Cost Optimization Report
+2. Automated Slack Cost Optimization Report
+
+<img width="1272" height="711" alt="1" src="https://github.com/user-attachments/assets/c3a76e0d-0d92-4d6e-904f-048c84572bde" />
 
 
-### 3. CLI Multi-Resource Savings Simulation (`--demo`)
+3. CLI Multi-Resource Savings Simulation (`--demo`)
+
+
+<img width="1280" height="293" alt="3" src="https://github.com/user-attachments/assets/dbe8ddbf-079b-494f-9574-3e4e9368570b" />
