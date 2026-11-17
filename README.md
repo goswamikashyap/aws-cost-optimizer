@@ -123,7 +123,8 @@ An automated, serverless FinOps auditing solution built with **Python (`boto3`)*
 
 2. Automated Slack Cost Optimization Report
 
-<img width="1272" height="711" alt="1" src="https://github.com/user-attachments/assets/c3a76e0d-0d92-4d6e-904f-048c84572bde" />
+<img width="1280" height="688" alt="4" src="https://github.com/user-attachments/assets/42df4c16-45fd-4f77-b339-ee995bdf7bdb" />
+
 
 
 3. CLI Multi-Resource Savings Simulation (`--demo`)
